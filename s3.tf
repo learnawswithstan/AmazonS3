@@ -22,7 +22,7 @@ resource "aws_s3_bucket" "stan-test-bucket-201" {
   }
 }
 
-# Create 2nd S3 bucket
+# Create Second S3 bucket
 resource "aws_s3_bucket" "stan-test-bucket-202" {
   bucket = "stan-test-bucket-202"
 
