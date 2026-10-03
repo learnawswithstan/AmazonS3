@@ -23,11 +23,11 @@ resource "aws_s3_bucket" "stan-test-bucket-201" {
 }
 
 # Create Second S3 bucket
-resource "aws_s3_bucket" "stan-test-bucket-202" {
-  bucket = "stan-test-bucket-202"
+resource "aws_s3_bucket" "stan-test-bucket-203" {
+  bucket = "stan-test-bucket-203"
 
   tags = {
-    Name        = "Stan bucket 202"
+    Name        = "Stan bucket 203"
     Environment = "Dev"
   }
 }
